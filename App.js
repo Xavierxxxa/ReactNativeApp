@@ -2,7 +2,7 @@ import React  from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import Home from './components/Home';
-import Sobre from './components/Sobre';
+import Login from './components/Login';
 import Produtos from './components/Produtos/index';
 
 const Stack = createStackNavigator();
@@ -21,9 +21,9 @@ export default function App() {
       />
       
       <Stack.Screen 
-      name="Sobre"
-      component ={Sobre}
-      option= {{title: 'Sobre'}}
+      name="Login"
+      component ={Login}
+      option= {{title: 'Login'}}
       />
 
       <Stack.Screen

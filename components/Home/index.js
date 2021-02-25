@@ -14,7 +14,7 @@ export default function Home(props){
 
             <TouchableOpacity style={styles.btn}
             title='Ir para Sobre' onPress={()=>
-                navigation.navigate('Sobre')
+                navigation.navigate('Login')
             }>
                 <Text> Login </Text>
             </TouchableOpacity>
